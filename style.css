@@ -1,0 +1,974 @@
+html {
+    scroll-behavior: smooth;
+  }
+* {
+    padding: 0;
+    margin:0;
+}
+
+body {
+    width:100%;
+    height:110vh;
+    background-image: url("back.jpg");
+    
+    background-repeat: repeat-x;
+    
+    background-repeat: none;
+    background-size: cover;
+}
+
+a{
+   
+    width:100%;
+    
+    
+    font-size: 100px;
+    color:rgb(1, 68, 6);
+    text-decoration: none;
+    font-size: 50px;
+    
+
+    
+}
+
+
+h3{
+  
+    font-size: 80px;
+    color: rgba(208, 206, 206, 0.733);
+    text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.577), 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    opacity: 80%;
+}
+.text{
+   
+    font-family: 'Barlow', sans-serif;
+    width:100%;
+    height:100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+header {
+    width:100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(27, 27, 27, 0.048);
+    height:13vh;
+    
+    
+}
+header nav  {
+    
+    display: flex;
+    justify-content: space-between;
+    
+    list-style: none;
+    text-decoration: none;
+    height:10vh;
+    padding:20px;
+    
+   
+}
+header nav ul li {
+    
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+    margin: 5px 10px;
+  
+   
+}
+
+header nav ul li a {
+    
+    
+    color:white;
+    text-shadow: 2px 2px 8px rgb(65, 65, 65);
+    list-style: none;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Titillium Web', sans-serif;
+   
+}
+
+header h1 {
+    font-size: 25px;
+}
+
+.page-2{
+    width:100%;
+    height:60vh;
+    display: flex;
+    background-color: rgb(223, 223, 223);
+
+    
+}
+
+.before {
+    background-color: rgb(223, 223, 223);
+    height: 60vh;
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.before-img {
+    background-image: url("before-picture.jpg");
+    
+
+    background-size:cover;
+    margin: 20px;
+    width: 100%;
+    height:40vh;
+    text-align: center;
+    display: flex;
+    
+    justify-content: center;
+    transition: ease-in 0.8s;
+}
+.before-img:hover {
+    background-image: url("after-picture.jpg");
+}
+.before-img h3 {
+    padding-top: 15vh;
+     font-size: 12px;
+     color:black;
+     text-shadow: none;
+    opacity: 60%;
+}
+
+.page-3{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.after {
+    
+    height: 50vh;
+    width:50%;
+    text-align: center;
+    justify-content: center;
+    
+    display: flex;
+    flex-direction: column;
+}
+.text2 {
+    
+    
+    height:30vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    
+    
+}
+.text2 h2 {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgba(5, 70, 5, 0.81);
+    width: 88%;
+    
+}
+.text2 button {
+    width:50%;
+    position: relative;
+    display: block;
+    left:25%;
+
+    border: none;
+    text-decoration: none;
+    position: relative;
+    
+    color: rgb(24, 23, 23);
+    font-size: 15px;
+    background-color: rgba(184, 184, 184, 0.262);
+    font-family: serif;
+    transition: ease-in 0.1s;
+    
+}
+
+.text2 button:hover{
+    color: rgb(215, 215, 215);
+    font-size: 15px;
+    background-color: rgba(26, 26, 26, 0.981);
+    height:20px;
+}
+.text2 p {
+    font-size: 11px;
+    width:88%;
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+}
+.bottom-half{
+    background-color: rgba(6, 6, 6, 0.892);
+    
+    width:100%;
+    height:30vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bottom-half h2 {
+    
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(181, 181, 181);
+    text-shadow: 3px 3px 8px rgb(28, 28, 28);
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.gd {
+    color: green;
+}
+.page-3 {
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+
+}
+
+.image-container {
+    width:50%;
+    height: 40vh;
+    background-image: url("page-3.jpeg");
+    background-size: cover;
+    background-position: left;
+}
+.right-side-container{
+    
+    width:50%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+
+    font-size: 20px;
+    text-align: center;
+    color: rgba(5, 70, 5, 0.81);
+    font-family: sans-serif;
+}
+.right-side-container h6 {
+    
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:85%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.footer-sec {
+    width:100%;
+    height: 20vh;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.section1.section2,.section3{
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    
+    
+}
+
+
+
+
+.section1 h4 {
+    
+    color:rgba(63, 240, 4, 0.173);
+    font-size: 10px;
+    padding-top: 10px;
+}
+.section1 h1 {
+    
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 8px;
+
+}
+.section1 h5 {
+    
+    color:rgba(255, 255, 255, 0.591);
+    font-size: 7px;
+    padding: 10px;
+    
+
+}
+
+.section2 h4{
+    
+    color: rgba(226, 226, 226, 0.899);
+    font-size: 10px;
+    text-align: center;
+}
+.section2 h5 {
+    
+    font-size: 10px;
+    text-align: center;
+    color: rgb(181, 181, 181);
+}
+.section3 {
+    color: rgba(226, 226, 226, 0.899);
+    text-align: center;
+    font-size: 10px;
+    margin: -6px 0px;
+    word-spacing: 10px;
+}
+
+.section3 h5 {
+    color: rgb(181, 181, 181);
+}
+#contact-page {
+    width:100%;
+    height: 50vh;
+
+}
+.email {
+   
+    height: 20vh;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.email-inner {
+   
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    
+    
+}
+.message-inner {
+ 
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.815);
+    
+}
+
+.message-inner h7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    text-shadow: none;
+    
+}
+.form-button {
+   
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.022);
+    font-size: 20px;
+    color: rgb(14, 14, 14);
+    
+    
+    
+  
+    
+}
+#contact-page {
+    height:80vh;
+    background-color:rgba(0, 0, 0, 0.233);
+}
+#contact-page h2 {
+    display: flex;
+    justify-content: center;
+    
+    font-size: 35px;
+    font-family: sans-serif;
+    color: rgba(5, 70, 5, 0.81);
+    padding: 20px 0px;
+    width: 100%;
+   
+
+}
+
+.button-section{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+
+    
+}
+.message-box{
+    height: 200px;
+    width:60%;
+    background-color: rgba(224, 224, 224, 0.89);
+    border: none;
+}
+.input-box{
+    width:20%;
+    background-color: rgba(224, 224, 224, 0.89);
+    border: rgba(0, 0, 0, 0.89);
+    height: 30px;
+}
+.message {
+    
+    font-size: 20px;
+    height: 30vh;
+}
+
+
+#contact-page label{
+    font-family: 'Barlow', sans-serif;
+    
+
+}
+@media screen and (min-width:580px)
+{
+    .right-side-container{
+    
+        width:50%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .title {
+    
+        font-size: 30px;
+        text-align: center;
+        color: rgba(5, 70, 5, 0.81);
+    }
+    .right-side-container h6 {
+        
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width:85%;
+        font-size: 20px;
+    }
+    .page-3 {
+        width: 100%;
+        height: 60vh;
+        background-color: rgb(233, 233, 233);
+        display: flex;
+    
+    }
+    .image-container {
+        width:50%;
+        height: 60vh;
+        background-image: url("page-3.jpeg");
+        background-size: cover;
+        background-position: left;
+    }
+    header nav  {
+    
+        display: flex;
+        justify-content: space-between;
+        
+        list-style: none;
+        text-decoration: none;
+        height:20vh;
+        padding:40px;
+        
+       
+    }
+    header nav ul li {
+        
+        display: inline-flex;
+        list-style: none;
+        text-decoration: none;
+      
+       
+    }
+    
+    header nav ul li a {
+        
+        
+        color:white;
+        list-style: none;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 10px 10px;
+       
+    }
+    header h1 {
+        font-size: 40px;
+    }
+    .before-img {
+        background-image: url("before-picture.jpg");
+        
+    
+        background-size:cover;
+        margin: 20px;
+        width: 100%;
+        height:40vh;
+        text-align: center;
+        display: flex;
+        
+        justify-content: center;
+        transition: ease-in 0.8s;
+    }
+    .before-img:hover {
+        background-image: url("after-picture.jpg");
+    }
+}
+
+@media screen and (min-width:800px)
+{
+    .before-img h3 {
+        padding-top: 15vh;
+         font-size: 20px;
+         color:black;
+         text-shadow: none;
+        opacity: 60%;
+    }
+    .before-img {
+        background-image: url("before-picture.jpg");
+        
+    
+        background-size:cover;
+        margin: 20px;
+        width: 60%;
+        height:40vh;
+        text-align: center;
+        display: flex;
+        
+        justify-content: center;
+        transition: ease-in 0.8s;
+    }
+    .before-img:hover {
+        background-image: url("after-picture.jpg");
+    }
+}
+@media screen and (min-width:1000px)
+{
+    .text2 h2 {
+        font-size: 30px;
+        font-family: sans-serif;
+        color: rgba(5, 70, 5, 0.81);
+        width: 88%;
+        
+    }
+    .text2 button {
+        width:50%;
+        position: relative;
+        display: block;
+        left:25%;
+    
+        border: none;
+        text-decoration: none;
+        position: relative;
+        
+        color: rgb(24, 23, 23);
+        font-size: 15px;
+        background-color: rgba(184, 184, 184, 0.262);
+        font-family: serif;
+        transition: ease-in 0.1s;
+        
+    }
+    
+    .text2 button:hover{
+        color: rgb(215, 215, 215);
+        font-size: 15px;
+        background-color: rgba(26, 26, 26, 0.981);
+        height:20px;
+    }
+    .text2 p {
+        font-size: 15px;
+        width:88%;
+        color: black;
+    }
+    .before-img {
+        background-image: url("before-picture.jpg");
+        
+    
+        background-size:cover;
+        margin: 20px;
+        width: 50%;
+        height:50vh;
+        text-align: center;
+        display: flex;
+        
+        justify-content: center;
+        transition: ease-in 0.8s;
+    }
+    .before-img:hover {
+        background-image: url("after-picture.jpg");
+    }
+    .section1{
+        width: 33.3%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+        
+    }
+    .section2{
+        width: 33.3%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+    }
+    .section3{
+        width: 33.3%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+    }
+    
+    .section1 h4 {
+        
+        color:rgba(63, 240, 4, 0.173);
+        font-size: 16px;
+    }
+    .section1 h1 {
+        
+        color:rgb(255, 255, 255);
+        font-size: 16px;
+        padding: 8px;
+    
+    }
+    .section1 h5 {
+        
+        color:rgba(255, 255, 255, 0.591);
+        font-size: 15px;
+        padding: 10px;
+        
+    
+    }
+    
+    .section2 h4{
+        
+        color: rgba(226, 226, 226, 0.899);
+        font-size: 13px;
+        text-align: center;
+    }
+    .section3 h4{
+        color: rgba(226, 226, 226, 0.899);
+        text-align: center;
+        font-size: 13px;
+        
+        word-spacing: 10px;
+    }
+}
+
+@media screen and (min-width:1300px)
+{
+    .text2 h2 {
+        font-size: 45px;
+        font-family: sans-serif;
+        color: rgba(5, 70, 5, 0.81);
+        width: 88%;
+        
+    }
+    .text2 button {
+        width:50%;
+        position: relative;
+        display: block;
+        left:25%;
+    
+        border: none;
+        text-decoration: none;
+        position: relative;
+        
+        color: rgb(24, 23, 23);
+        font-size: 15px;
+        background-color: rgba(184, 184, 184, 0.262);
+        font-family: serif;
+        transition: ease-in 0.1s;
+        
+    }
+    
+    .text2 button:hover{
+        color: rgb(215, 215, 215);
+        font-size: 15px;
+        background-color: rgba(26, 26, 26, 0.981);
+        height:20px;
+    }
+    .text2 p {
+        font-size: 27px;
+        width:88%;
+        color: black;
+    }
+    h2{
+   
+        width:100%;
+        
+        
+        font-size: 150px;
+        color:black;
+    
+        
+    }
+    
+    
+    h3{
+      
+        font-size: 130px;
+        color: rgba(208, 206, 206, 0.733);
+        text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.577), 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+        opacity: 80%;
+    }
+    header h1 {
+    font-size: 50px;
+}
+.before-img {
+    background-image: url("before-picture.jpg");
+    
+
+    background-size:cover;
+    margin: 20px;
+    width: 50%;
+    height:50vh;
+    text-align: center;
+    display: flex;
+    
+    justify-content: center;
+    transition: ease-in 0.8s;
+}
+.before-img:hover {
+    background-image: url("after-picture.jpg");
+}
+    .bottom-half h2 {
+        padding-top: 5%;
+        width: 88%;
+        font-size: 35px;
+        text-align: center;
+        color: rgb(205, 205, 205);
+    
+    }
+    header nav ul li a {
+        
+        
+        color:white;
+        list-style: none;
+        text-decoration: none;
+        font-size: 25px;
+        margin: 10px 20px;
+       
+    }
+}
+@media screen and (min-width:1500px){
+    .before-img {
+        background-image: url("before-picture.jpg");
+        
+    
+        background-size:cover;
+        margin: 20px;
+        width: 50%;
+        height:55vh;
+        text-align: center;
+        display: flex;
+        
+        justify-content: center;
+        transition: ease-in 0.8s;
+    }
+    .before-img:hover {
+        background-image: url("after-picture.jpg");
+    }
+}
+@media screen and (min-width:1700px){
+    .before-img {
+        background-image: url("before-picture.jpg");
+        
+    
+        background-size:cover;
+        margin: 20px;
+        width: 50%;
+        height:55vh;
+        text-align: center;
+        display: flex;
+        
+        justify-content: center;
+        transition: ease-in 0.8s;
+    }
+    .before-img:hover {
+        background-image: url("after-picture.jpg");
+    }
+}
+@media screen and (min-width:2000px)
+{
+    header nav  {
+    
+        display: flex;
+        justify-content: space-between;
+        
+        list-style: none;
+        text-decoration: none;
+        height:20vh;
+        padding:40px;
+        
+       
+    }
+    header nav ul li {
+        
+        display: inline-flex;
+        list-style: none;
+        text-decoration: none;
+      
+       
+    }
+    
+    header nav ul li a {
+        
+        
+        color:white;
+        list-style: none;
+        text-decoration: none;
+        font-size: 30px;
+        margin: 30px 40px;
+       
+    }
+    .text2 h2 {
+        font-size: 60px;
+        font-family: sans-serif;
+        color: rgba(5, 70, 5, 0.81);
+        width: 88%;
+        
+    }
+    .text2 button {
+        width:50%;
+        position: relative;
+        display: block;
+        left:25%;
+    
+        border: none;
+        text-decoration: none;
+        position: relative;
+        
+        color: rgb(24, 23, 23);
+        font-size: 25px;
+        background-color: rgba(184, 184, 184, 0.262);
+        font-family: serif;
+        transition: ease-in 0.1s;
+        
+    }
+    
+    .text2 button:hover{
+        color: rgb(215, 215, 215);
+        font-size: 15px;
+        background-color: rgba(26, 26, 26, 0.981);
+        height:20px;
+    }
+    .text2 p {
+        font-size: 35px;
+        width:88%;
+        color: black;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    h2{
+   
+        width:100%;
+        
+        
+        font-size: 150px;
+        color:black;
+    
+        
+    }
+    
+    
+    h3{
+      
+        font-size: 130px;
+        color: rgba(208, 206, 206, 0.733);
+        text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.577), 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+        opacity: 80%;
+    }
+    header h1 {
+    font-size: 60px;
+}
+.before-img {
+    background-image: url("before-picture.jpg");
+    
+
+    background-size:cover;
+    margin: 20px;
+    width: 40%;
+    height:50vh;
+    text-align: center;
+    display: flex;
+    
+    justify-content: center;
+    transition: ease-in 0.8s;
+}
+.before-img:hover {
+    background-image: url("after-picture.jpg");
+}
+.bottom-half{
+    background-color: rgba(6, 6, 6, 0.892);
+    
+    width:100%;
+    height:40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bottom-half h2 {
+    
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(181, 181, 181);
+    text-shadow: 3px 3px 8px rgb(28, 28, 28);
+    font-family: 'Titillium Web', sans-serif;
+
+}
+    .right-side-container h6 {
+    
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width:60%;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 35px;
+    }
+    .right-side-container .title{
+        padding-top: 100px;
+        font-size: 60px;
+    }
+}
